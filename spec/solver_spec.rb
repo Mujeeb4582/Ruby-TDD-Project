@@ -1,3 +1,5 @@
+require './lib/solver'
+
 describe Solver do
   let(:solver) { Solver.new(10) }
 
@@ -5,4 +7,5 @@ describe Solver do
     it 'sets the given number' do
       expect(solver.number).to eq(10)
     end
+  end
 end
